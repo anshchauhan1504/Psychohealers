@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+}
+h2{
+    color:rgb(66, 240, 32);
+    font-size: "300px";
+    font-weight: 700;
+    font-display: "block";
+}
+head{
+   background-color:aquamarine;
+}
+
+body {
+    margin: 0px;
+    padding:0px;
+    font-family: "red-serif", 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, red serif;
+    background-image:url("file:///C:/Users/anshc/OneDrive/Desktop/psychohealers/images/mental.jfif");
+    
+}
+
+
+header h1 {
+    text-align: center;
+    text-shadow: 2px 2px 2px #35db4b;
+    font-size: 40px;
+    color:orange;
+    font-family: 'Fraunces', serif;
+    font-size: 3.54rem; 
+    
+}
+.title
+{
+    width: 100%;
+    
+    
+    
+}
+.logo
+{
+    width:20%;
+    position: relative;
+}
+
+
+header {
+    padding: 40px;
+    background-color: rgb(9, 192, 122);
+}
+
+nav {
+    background-color: #ffed99;
+    list-style-type: none;
+    margin: 0px;
+    padding:0px 0px 0px 0px;
+    top:5px;
+    overflow: hidden;
+    
+    width: 100%;
+    
+}
+nav a {
+    text-decoration: none;
+    padding: 30px;
+    text-align: center;
+    float: left;
+    color: #010201;
+    list-style-type: none;
+    font-size: larger;
+    font-style: Lucida Grande;
+
+}
+nav a:hover, .nav a.active {
+    text-decoration:underline;
+    color:gold;
+    
+}
+
+main {
+    background-color:#ffeedb;
+    text-align: center;
+    position: absolute;
+    margin:10px;
+}
+
+h2 {
+    padding: 20px;
+}
+
+section:nth-child(even) {
+    background-color: #ffd3b4; 
+}
+
+section {
+    min-height: 100vh;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+video {
+    padding: 10px;
+}
+
+iframe {
+    height: 75vh;
+}
+
+img {
+    padding: 10px;
+}
+
+section h5 {
+    margin: 40px;
+}
+
+footer {
+    background-color:#ddffbc;
+    overflow: hidden;
+}
+
+footer a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color:#feffde;
+}
+p{
+    animation-duration: 5s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    75% {
+      font-size: 100%;
+      margin-left: 25%;
+      width: 150%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+}
+hr{
+    color: rgb(97, 100, 102);
+    border: dotted;
+    border-width: 6px;
+    border-bottom: none;
+    width: 5%;
+}
